@@ -1,6 +1,3 @@
-// ===============================
-// NIKO XV - SCRIPT COMPLETO
-// ===============================
 
 // Fecha del evento
 const fechaEvento = new Date("2026-08-08T17:00:00").getTime();
