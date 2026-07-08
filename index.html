@@ -94,10 +94,12 @@
 
     <h2>Un mensaje para ti</h2>
 
-    <video controls preload="metadata" class="video-niko">
-        <source src="videos/video.mp4" type="video/mp4">
-
+    <video class="video-niko" controls preload="metadata">
+        <source src="https://res.cloudinary.com/sn4hc4f8/video/upload/v1783519786/video_jpkpvh.mp4" type="video/mp4">
+        Tu navegador no soporta videos.
     </video>
+
+</section>
 
 </section>
 
@@ -164,3 +166,11 @@
 
 </body>
 </html>
+.video-niko{
+    width:90%;
+    max-width:900px;
+    aspect-ratio:16/9;
+    border:none;
+    border-radius:25px;
+    box-shadow:0 0 35px rgba(0,217,255,.35);
+}
