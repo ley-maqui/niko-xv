@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIKO XV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="background-glow"></div>
+
+<header class="hero">
+
+    <div class="logo">NIKO XV</div>
+
+    <p class="subtitulo">MIS XV AÑOS</p>
+
+    <div class="marco-foto">
+        <img src="imagenes/portada.jpg" alt="Niko" class="foto-principal">
+    </div>
+
+    <blockquote class="frase">
+        "Yo sólo quiero sentir tanto como puedo,
+        es de todo lo que trata el alma."
+        <br>
+        <span>— Janis Joplin</span>
+    </blockquote>
+
+    <button id="btnAbrir">ABRIR INVITACIÓN</button>
+
+    <div class="scroll">
+        ▼ Desliza para comenzar ▼
+    </div>
+
+</header>
+
+<section class="bienvenida">
+
+    <h2>Bienvenidos</h2>
+
+    <p>
+        Gracias por acompañarme en una noche que recordaré toda la vida.
+        La música, la familia y los amigos harán de este momento algo inolvidable.
+    </p>
+
+</section>
+
+<section class="evento">
+
+    <h2>8 de Agosto de 2026</h2>
+
+    <div class="contador">
+
+        <div>
+            <span id="dias">00</span>
+            <small>Días</small>
+        </div>
+
+        <div>
+            <span id="horas">00</span>
+            <small>Horas</small>
+        </div>
+
+        <div>
+            <span id="minutos">00</span>
+            <small>Minutos</small>
+        </div>
+
+        <div>
+            <span id="segundos">00</span>
+            <small>Segundos</small>
+        </div>
+
+    </div>
+
+    <h3>📍 Salón Jardín</h3>
+
+    <p>8 de agosto de 2026 · 5:00 PM</p>
+
+</section>
+
+<section class="galeria">
+
+    <h2>Momentos</h2>
+
+    <div class="galeria-grid"></div>
+
+</section>
+
+<section class="video">
+
+    <h2>Un mensaje para ti</h2>
+
+    <video controls preload="metadata" class="video-niko">
+        <source src="videos/video.mp4" type="video/mp4">
+
+    </video>
+
+</section>
+
+<section class="ubicacion">
+
+    <h2>¿Dónde será la fiesta?</h2>
+
+    <p><strong>Salón Jardín</strong></p>
+
+    <p>
+        Calle Querétaro 114<br>
+        Hab. Valle Ceylán<br>
+        Tlalnepantla de Baz
+    </p>
+
+    <a href="https://maps.app.goo.gl/9uxokAsTjM8XkMFX9?g_st=aw"
+   target="_blank"
+   class="btn-mapa">
+        📍 CÓMO LLEGAR
+    </a>
+
+</section>
+
+<section class="confirmacion">
+
+    <h2>Confirma tu asistencia</h2>
+
+    <p>
+        Tu presencia hará esta noche aún más especial.
+    </p>
+
+    <a class="btn-confirmar">
+        💜 Confirmar asistencia
+    </a>
+
+</section>
+
+<div id="modalConfirmacion" class="modal">
+
+    <div class="modal-contenido">
+
+        <h2>💜 ¿Nos acompañarás?</h2>
+
+        <p>
+            Tu presencia hará que esta noche sea aún más especial.
+        </p>
+
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe74oLKS50SF1yPD4VdIQU5-G7zVBpnPOJ5Sk472U9ftq2y8A/viewform?usp=sharing&ouid=117291758883676381543"
+           target="_blank"
+           class="btn-confirmar">
+            🎉 Confirmar asistencia
+        </a>
+
+        <button id="cerrarModal"
+        class="btn-cerrar">
+    Seguir viendo la invitación
+</button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
